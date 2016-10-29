@@ -5,50 +5,84 @@
     <title>Mpire Security</title>
     <link rel="stylesheet" href="stylesheets/master.css" media="screen" title="no title">
     <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/javascript/master.js"></script>
   </head>
   <body>
     <div class="main-wrapper">
       <div class="nav-bar">
         <div class="nav-left">
-          <img id='phone-icon' src="images/phone-receiver.svg" alt="a telephone icon" />
-          <img id='email-icon' src="images/envelope.svg" alt="an envelope icon" />
+          <img class="enquire-btn" id='phone-icon' src="images/phone-receiver.svg" alt="a telephone icon" />
+          <img class="enquire-btn" id='email-icon' src="images/envelope.svg" alt="an envelope icon" />
           <a href="/index.html">Home</a>
           <a href="/store-detectives.html">Store Detectives</a>
         </div>
         <div class="nav-right">
+          <!-- <a href="#">Login</a> -->
+          <div class="cancel-icon-wrapper">
+            <img class="enquire-btn cancel-icon" src="images/cancel.svg" alt="A cancel icon" />
+          </div>
+        </div>
+      </div>
+      <div class="enquiries">
+        <div class="enquiries-header">
+          <h2>The Complete Solution...?</h2>
+        </div>
+        <div class="enquiries-text">
+          <p>
+            We constantly seek new challenges, whether they are with a corporate body, a commercial enterprise or family owned local company.
+          </p>
+          <p>
+            We will confidentially discuss your concerns with you and advise on the most cost effective solution for your organisation.
+          </p>
+        </div>
+        <div class="enquiries-form-wrapper">
+          <form class="enquiries-form" action="index.html" method="post">
+            <input class="email-input" type="email" name="email" placeholder="Enter your email address">
+            <button class="submit-btn" type="submit" name="submit">Send!</button>
+          </form>
         </div>
       </div>
       <div class="header-wrapper">
         <img src="images/logo_1.png" alt="the company's logo" />
       </div>
       <div class="main-image-wrapper">
-        <h1>Maintaining the integrity of your assets</h2>
+        <h1>Our detectives</h2>
           <p>
             Mpire Security
           </p>
       </div>
       <div class="body-wrapper">
-        <div class="section-one">
-          <h2>Store detectives with attitude. For more information, why not <span>drop us a line</span> today.</h2>
-          <input type="text" name="email" placeholder="Enter your email for further information">
-          <img src="images/down-arrow.svg" alt="Down arrow" />
-        </div>
+        <!-- <div class="section-one">
+          <h2>Market leaders in asset protection. Why not <span class="enquire-btn">drop us a line</span> today?</h2>
+          <form class="enquiries-form" action="index.html" method="post">
+            <input class="email-input" type="email" name="email" placeholder="Enter your email address">
+            <button class="submit-btn" type="submit" name="submit">Send!</button>
+          </form>
+          <img class="down-arrow" src="images/down-arrow.svg" alt="Down arrow" />
+        </div> -->
         <div class="section-two">
           <div class="section-two-inner">
             <div class="section-two-text">
-              <div class="text-left">
+              <div class="text left">
+                <h4>The Right People</h4>
+                <br>
                 <p>
-                  Who is Empire Security?
+                  Our experienced management team provide our clients with quality staff who have been hand picked, well trained and rigorously vetted to levels in excess of BS 7858 – Code of Practice for Screening Security Personnel.
                 </p>
               </div>
-              <div class="text-center">
+              <div class="text center">
+                <h4>Standards</h4>
+                <br>
                 <p>
-                  We are market leaders in the development and delivery of loss prevention, profit enhancement and asset protection services. Our clients include leading corporations, multinationals, private companies together with their regional and local counterparts.
+                  We set our standards high and seek to consistently surpass Security Industry Authority criteria and BS EN ISO 9002:2000 requirements.
                 </p>
               </div>
-              <div class="text-right">
+              <div class="text right">
+                <h4>Service Level Agreements</h4>
+                <br>
                 <p>
-                  We provide value added solutions based on a thorough analysis of your requirements and a realistic assessment of potential outcomes. MPire Security operate to exacting standards. We meet and, wherever possible, exceed the requirements of  our BS EN ISO 9001:2000 accreditation, British Standards and all relevant Licensing requirements.
+                  To ensure that we give our partners value for money we regularly assess their requirements and benchmark service delivery through agreed K.P.I’s. Then, so that we staty the best we independently monitor performance through our Group Customer Service Department.
                 </p>
               </div>
             </div>
