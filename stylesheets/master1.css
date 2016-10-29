@@ -23,6 +23,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
   flex: 1;
   z-index: 1;
   background-color: rgba(255,255,255,.87);
@@ -42,6 +43,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
   flex: 1;
   z-index: 1;
   background-color: rgba(255,255,255,.87);
@@ -59,12 +61,13 @@
 
 .enquiries-text {
   flex-basis: 100vw;
+  text-align: center;
 }
 
 .enquiries p {
-  width: 60vw;
+  width: 900px;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   letter-spacing: 1.5px;
   line-height: 150%;
@@ -72,10 +75,9 @@
 }
 
 .enquiries.open p {
-  width: 60vw;
+  width: 900px;
   font-size: 25px;
-  text-align: left;
-  margin: 0 auto;
+  text-align: center;
   letter-spacing: 1.5px;
   line-height: 150%;
 }
@@ -108,7 +110,30 @@
   letter-spacing: .5px;
   text-align: center;
   font-size: 17px;
-  font-weight: 200;}
+  font-weight: 200;
+}
+
+.contact-details-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    text-align: center;
+}
+
+.enquiries-email-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.enquiries-phone-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
 
 .nav-left {
   width: 50%;
@@ -119,14 +144,14 @@
   align-items: center;
 }
 
-#email-icon {
+.email-icon {
   margin-left: 15px;
   height: 25px;
   color: #d53928;
   cursor: pointer;
 }
 
-#phone-icon {
+.phone-icon {
   margin-left: 30px;
   height: 20px;
   color: #d53928;
@@ -190,6 +215,26 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+#enquire-email-icon {
+  margin: 0;
+}
+
+#enquire-phone-icon {
+  margin: 0;
+}
+
+#contact-email {
+  width: 400px;
+  margin: 0;
+  margin-right: 25px;
+}
+
+#contact-phone {
+  width: 400px;
+  margin: 0;
+  margin-right: 25px;
 }
 
 .header-wrapper {
